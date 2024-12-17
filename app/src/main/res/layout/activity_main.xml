@@ -2,7 +2,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/baseline_burst_mode_24" />
+
     <TextView android:id="@+id/uname"
         android:text="USERNAME"
         android:textStyle="bold"
@@ -26,9 +34,10 @@
         android:id="@+id/pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#2196F3"
         android:id="@+id/but"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"/>
 

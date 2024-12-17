@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 getUse=et1.getText().toString();
                 getPass=et2.getText().toString();
+                Intent ob=new Intent(getApplicationContext(),DashboardActivity.class);
+                if(getUse.equals("theatre") &&getPass.equals("12345"));
+                    startActivity(ob);
             }
         });
     }
